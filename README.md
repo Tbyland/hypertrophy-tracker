@@ -22,3 +22,14 @@ This folder is a Progressive Web App (PWA). For an app icon and offline use:
 
 ## Data and privacy
 Logs are saved locally in that browser on that device. There is no account or cloud sync. Export a JSON backup from **More** periodically. Clearing browser storage may erase the data. To move to another device, export the backup and import it there.
+
+
+Version 4: Weight view now calculates average gain/loss per 7 days by comparing averages across two consecutive 7-calendar-day windows anchored to the latest weigh-in date.
+
+
+## Version 5 additions
+- Exercise-by-exercise progress summaries based on actual logged sets, not averages alone.
+- Compares total reps and tracked volume with the previous logged performance and shows up to four recent sessions.
+- Keeps individual set weights and reps. Dumbbell entries are per dumbbell; barbell and plate-loaded machine entries exclude the empty bar or machine starting resistance.
+- Retains Version 4's 7-day body-weight trend and all existing app features.
+- Existing local data uses the same storage key. Export a JSON backup before updating as a precaution.
