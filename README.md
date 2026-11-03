@@ -33,3 +33,10 @@ Version 4: Weight view now calculates average gain/loss per 7 days by comparing 
 - Keeps individual set weights and reps. Dumbbell entries are per dumbbell; barbell and plate-loaded machine entries exclude the empty bar or machine starting resistance.
 - Retains Version 4's 7-day body-weight trend and all existing app features.
 - Existing local data uses the same storage key. Export a JSON backup before updating as a precaution.
+
+
+## Version 6 changes
+- Removed weekday labels from workout tabs, quick-start buttons, workout headers, and save button text. Workout names remain.
+- Unsaved exercise set entries, pain rating, notes, and session date are held as a draft while changing the selected program week, and restored when returning to that workout/week.
+- Draft entries are only committed to workout history when Save workout is pressed.
+- Existing saved data and the localStorage key are unchanged.
